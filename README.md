@@ -1,2 +1,1 @@
-# websiteformoneta2
-Chatgpt
+https://websiteformoneta.github.io/monetaCodex
