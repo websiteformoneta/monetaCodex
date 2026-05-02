@@ -5,6 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>moneta | Cloud Reseller Billing Infrastructure</title>
   <meta name="description" content="moneta is the billing infrastructure for AWS and Azure resellers, aligning billing, pricing, discounts, invoicing, and customer-level margins.">
+  <meta property="og:title" content="moneta | Cloud Reseller Billing Infrastructure">
+  <meta property="og:description" content="moneta is the billing infrastructure for AWS and Azure resellers, aligning billing, pricing, discounts, invoicing, and customer-level margins.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/moneta-logo.png">
+  <meta property="og:url" content="index.html">
+  <meta property="og:site_name" content="moneta">
   <link rel="icon" type="image/png" href="assets/favicon.png">
   <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -53,33 +59,59 @@
             </div>
 
             <div class="system-layout">
+              <p class="system-label system-layout-label system-layout-label-left">Inputs</p>
+              <p class="system-label system-layout-label system-layout-label-right">Outputs</p>
+
               <div class="system-column system-column-left">
-                <p class="system-label">Inputs</p>
-                <article class="system-card accent-cyan">
-                  <span class="system-icon icon-bars" aria-hidden="true"></span>
-                  <div>
-                    <h3>Usage Data</h3>
-                    <p>Real-time</p>
-                  </div>
-                </article>
-                <article class="system-card accent-teal">
-                  <span class="system-icon icon-cloud" aria-hidden="true"></span>
-                  <div>
-                    <h3>Vendor Pricing</h3>
-                    <p>AWS, Azure</p>
-                  </div>
-                </article>
-                <article class="system-card accent-cyan">
-                  <span class="system-icon icon-doc" aria-hidden="true"></span>
-                  <div>
-                    <h3>Contracts</h3>
-                    <p>Agreements</p>
-                  </div>
-                </article>
+                <div class="system-card-stack system-card-stack-left">
+                  <article class="system-card accent-cyan">
+                    <span class="system-icon icon-bars" aria-hidden="true"></span>
+                    <div>
+                      <h3>Usage Data</h3>
+                      <p>Real-time</p>
+                    </div>
+                  </article>
+                  <article class="system-card accent-teal">
+                    <span class="system-icon icon-cloud" aria-hidden="true"></span>
+                    <div>
+                      <h3>Vendor Pricing</h3>
+                      <p>AWS, Azure</p>
+                    </div>
+                  </article>
+                  <article class="system-card accent-cyan">
+                    <span class="system-icon icon-doc" aria-hidden="true"></span>
+                    <div>
+                      <h3>Contracts</h3>
+                      <p>Agreements</p>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+              <div class="system-gap system-gap-left" aria-hidden="true">
+                <div class="system-gap-track system-gap-track-left">
+                  <span class="system-gap-spine"></span>
+                  <span class="system-gap-branch system-gap-branch-1">
+                    <span class="system-gap-line"></span>
+                  </span>
+                  <span class="system-gap-branch system-gap-branch-2">
+                    <span class="system-gap-line"></span>
+                  </span>
+                  <span class="system-gap-branch system-gap-branch-3">
+                    <span class="system-gap-line"></span>
+                  </span>
+                </div>
               </div>
 
               <div class="system-core-wrap">
                 <div class="system-core">
+                  <div class="system-core-axis" aria-hidden="true">
+                    <span class="system-core-line system-core-line-left">
+                      <span class="system-core-arrow"></span>
+                    </span>
+                    <span class="system-core-line system-core-line-right"></span>
+                  </div>
+
                   <div class="system-core-badge" aria-hidden="true">
                     <img src="assets/favicon.png" alt="" class="system-core-logo">
                   </div>
@@ -120,40 +152,60 @@
                     <span class="status-check" aria-hidden="true"></span>
                   </article>
                 </div>
+              </div>
 
-                <div class="system-controls">
-                  <p class="system-label">Controls</p>
+              <div class="system-gap system-gap-right" aria-hidden="true">
+                <div class="system-gap-track system-gap-track-right">
+                  <span class="system-gap-spine"></span>
+                  <span class="system-gap-branch system-gap-branch-1">
+                    <span class="system-gap-line"></span>
+                    <span class="system-gap-arrow"></span>
+                  </span>
+                  <span class="system-gap-branch system-gap-branch-2">
+                    <span class="system-gap-line"></span>
+                    <span class="system-gap-arrow"></span>
+                  </span>
+                </div>
+              </div>
+
+              <div class="system-column system-column-right">
+                <div class="system-card-stack system-card-stack-right">
                   <article class="system-card accent-blue">
-                    <span class="system-icon icon-shield" aria-hidden="true"></span>
+                    <span class="system-icon icon-doc" aria-hidden="true"></span>
                     <div>
-                      <h3>Margin Rules</h3>
-                      <p>Active</p>
+                      <h3>Invoices</h3>
+                      <p>Accurate</p>
                     </div>
                   </article>
-                  <article class="system-card accent-gold">
-                    <span class="system-icon icon-percent" aria-hidden="true">%</span>
+                  <article class="system-card accent-blue">
+                    <span class="system-icon icon-bars" aria-hidden="true"></span>
                     <div>
-                      <h3>Discount Policies</h3>
-                      <p>Enforced</p>
+                      <h3>Margin Intelligence</h3>
+                      <p>Actionable</p>
                     </div>
                   </article>
                 </div>
               </div>
 
-              <div class="system-column system-column-right">
-                <p class="system-label">Outputs</p>
+              <div class="system-controls-gap" aria-hidden="true">
+                <span class="system-controls-stem"></span>
+                <span class="system-controls-stem"></span>
+              </div>
+
+              <div class="system-controls">
+                <p class="system-label">Controls</p>
                 <article class="system-card accent-blue">
-                  <span class="system-icon icon-doc" aria-hidden="true"></span>
+                  <span class="system-icon icon-shield" aria-hidden="true"></span>
                   <div>
-                    <h3>Invoices</h3>
-                    <p>Accurate</p>
+                    <h3>Margin Rules</h3>
+                    <p>Active</p>
                   </div>
                 </article>
-                <article class="system-card accent-blue">
-                  <span class="system-icon icon-bars" aria-hidden="true"></span>
+                <article class="system-card accent-gold">
+                  <span class="system-icon icon-percent" aria-hidden="true">%</span>
                   <div>
-                    <h3>Margin Intelligence</h3>
-                    <p>Actionable</p>
+                    <h3>Discount Policies</h3>
+                    <p>Enforced</p>
                   </div>
                 </article>
               </div>
@@ -203,13 +255,11 @@
               <p>Billing relies on spreadsheets and manual reconciliation, slowing the business as customer count grows.</p>
             </article>
           </div>
-          <div class="consequence-panel">
-            <p class="section-label">These obstacles lead to</p>
-            <div class="bullet-grid bullet-grid-three">
-              <article class="statement-block"><span></span><p>Misapplied discounts and pricing gaps reduce margins</p></article>
-              <article class="statement-block"><span></span><p>Limited visibility into margin performance by customer</p></article>
-              <article class="statement-block"><span></span><p>Margin loss compounds across every customer account</p></article>
-            </div>
+          <p class="section-label problem-consequence-label">These obstacles lead to</p>
+          <div class="problem-consequence-grid">
+            <article class="statement-block"><span></span><p>Misapplied discounts and pricing gaps reduce margins</p></article>
+            <article class="statement-block"><span></span><p>Limited visibility into margin performance by customer</p></article>
+            <article class="statement-block"><span></span><p>Margin loss is not isolated. It compounds across every customer account.</p></article>
           </div>
         </div>
       </section>
@@ -226,32 +276,37 @@
               <p>Invoices are accurate, discounts are correctly applied, and margin performance is visible across every customer account. Resellers can control pricing with confidence and protect margins at scale.</p>
             </div>
           </div>
-          <div class="feature-grid">
-            <article class="feature-card">
-              <p class="feature-number">01</p>
-              <h3>Accurate, Automated Customer Invoicing</h3>
-              <p>Generate consistent, customer-ready invoice data aligned with your pricing strategy. Billing is automated, repeatable, and accurate across every customer account.</p>
-            </article>
-            <article class="feature-card">
-              <p class="feature-number">02</p>
-              <h3>Cloud Discount Program Management</h3>
-              <p>Identify and apply cloud discount programs across every customer account. Available savings are captured and correctly reflected in both cost and pricing.</p>
-            </article>
+          <div class="solution-feature-group">
             <aside class="solution-callout">
               <p class="section-label">What changes with moneta</p>
-              <h3>One system controls the financial logic behind every customer invoice.</h3>
-              <p>Billing, discount application, pricing policy, and customer-level margin visibility operate together instead of being reconciled after the fact.</p>
+              <div class="solution-callout-content">
+                <h3>One system controls the financial logic behind every customer invoice.</h3>
+                <p>Billing, discount application, pricing policy, and customer-level margin visibility operate together instead of being reconciled after the fact.</p>
+              </div>
             </aside>
-            <article class="feature-card">
-              <p class="feature-number">03</p>
-              <h3>Margin Visibility by Customer</h3>
-              <p>Track margin performance across every customer account with clear, reliable reporting. Identify where margins are strong, where they are eroding, and where pricing adjustments are required.</p>
-            </article>
-            <article class="feature-card">
-              <p class="feature-number">04</p>
-              <h3>Pricing Advantage</h3>
-              <p>Use cost, discount, and margin visibility to set competitive pricing, protect margins, and support long-term customer growth.</p>
-            </article>
+
+            <div class="solution-feature-grid">
+              <article class="feature-card">
+                <p class="feature-number">01</p>
+                <h3>Accurate, Automated Customer Invoicing</h3>
+                <p>Generate consistent, customer-ready invoice data aligned with your pricing strategy. Billing is automated, repeatable, and accurate across every customer account.</p>
+              </article>
+              <article class="feature-card">
+                <p class="feature-number">02</p>
+                <h3>Cloud Discount Program Management</h3>
+                <p>Identify and apply cloud discount programs across every customer account. Available savings are captured and correctly reflected in both cost and pricing.</p>
+              </article>
+              <article class="feature-card">
+                <p class="feature-number">03</p>
+                <h3>Margin Visibility by Customer</h3>
+                <p>Track margin performance across every customer account with clear, reliable reporting. Identify where margins are strong, where they are eroding, and where pricing adjustments are required.</p>
+              </article>
+              <article class="feature-card">
+                <p class="feature-number">04</p>
+                <h3>Pricing Advantage</h3>
+                <p>Use cost, discount, and margin visibility to set competitive pricing, protect margins, and support long-term customer growth.</p>
+              </article>
+            </div>
           </div>
         </div>
       </section>
@@ -259,46 +314,35 @@
       <section class="content-section section-results" id="results">
         <div class="container">
           <div class="section-heading">
-            <p class="eyebrow">Before and After</p>
-            <h2>Cloud Reseller Billing Before moneta and After moneta</h2>
+            <p class="eyebrow">Results</p>
+            <h2>Real Outcomes for Cloud Resellers Using moneta</h2>
             <p class="section-summary">moneta helps cloud resellers move from manual billing and unclear margins to automated operations, accurate pricing, and profitability growth.</p>
           </div>
-          <div class="comparison-table" role="table" aria-label="Before and after moneta comparison">
-            <div class="comparison-row comparison-row-head" role="row">
-              <div class="comparison-cell comparison-cell-label" role="columnheader">Use Case</div>
-              <div class="comparison-cell" role="columnheader">Before</div>
-              <div class="comparison-cell" role="columnheader">After</div>
-            </div>
-            <div class="comparison-row" role="row">
-              <div class="comparison-cell comparison-cell-label" role="rowheader">Margin visibility</div>
-              <div class="comparison-cell" role="cell">Unknown customer-level margins make it hard to spot underperforming accounts.</div>
-              <div class="comparison-cell" role="cell">Clear profitability by customer allows resellers to take corrective action quickly.</div>
-            </div>
-            <div class="comparison-row" role="row">
-              <div class="comparison-cell comparison-cell-label" role="rowheader">Billing operations</div>
-              <div class="comparison-cell" role="cell">Spreadsheets and manual reconciliation create errors, delays, and rework.</div>
-              <div class="comparison-cell" role="cell">Automated, accurate invoicing reduces operational overhead and improves consistency.</div>
-            </div>
-            <div class="comparison-row" role="row">
-              <div class="comparison-cell comparison-cell-label" role="rowheader">Discount capture</div>
-              <div class="comparison-cell" role="cell">Missed or misapplied discount programs quietly erode customer margins.</div>
-              <div class="comparison-cell" role="cell">Discount opportunities are identified and correctly reflected in cost and pricing.</div>
-            </div>
-            <div class="comparison-row" role="row">
-              <div class="comparison-cell comparison-cell-label" role="rowheader">Pricing strategy</div>
-              <div class="comparison-cell" role="cell">Reactive pricing decisions make it difficult to compete without sacrificing profitability.</div>
-              <div class="comparison-cell" role="cell">Cost and margin visibility support confident pricing and long-term customer growth.</div>
-            </div>
-            <div class="comparison-row" role="row">
-              <div class="comparison-cell comparison-cell-label" role="rowheader">Growth capacity</div>
-              <div class="comparison-cell" role="cell">Operational bottlenecks limit the number of customers and pricing models teams can support.</div>
-              <div class="comparison-cell" role="cell">Teams scale billing volume and customer complexity without adding operational drag.</div>
-            </div>
-            <div class="comparison-row" role="row">
-              <div class="comparison-cell comparison-cell-label" role="rowheader">FinOps services</div>
-              <div class="comparison-cell" role="cell">Cost reviews are ad hoc and difficult to turn into repeatable revenue.</div>
-              <div class="comparison-cell" role="cell">Structured Cloud FinOps services become a repeatable offering with recurring revenue potential.</div>
-            </div>
+          <div class="results-grid">
+            <article class="result-card">
+              <h3>From Unknown Margins to Clear Profitability</h3>
+              <p>Resellers gain immediate visibility into margin performance by customer, allowing them to identify underperforming accounts and take corrective action.</p>
+            </article>
+            <article class="result-card">
+              <h3>From Manual Billing to Automated, Accurate Invoicing</h3>
+              <p>Billing processes that once required spreadsheets and manual reconciliation become automated, reducing errors and eliminating rework.</p>
+            </article>
+            <article class="result-card">
+              <h3>From Missed Discounts to Captured Savings</h3>
+              <p>Resellers uncover previously missed discount opportunities and ensure discount programs are correctly applied across every customer.</p>
+            </article>
+            <article class="result-card">
+              <h3>From Reactive Pricing to Competitive Advantage</h3>
+              <p>With clear cost and margin visibility, resellers set competitive pricing to win new business, protect margins, and expand customer accounts over time.</p>
+            </article>
+            <article class="result-card">
+              <h3>From Operational Bottlenecks to Scalable Growth</h3>
+              <p>Teams can support more customers, more complex pricing models, and higher billing volumes without increasing operational overhead.</p>
+            </article>
+            <article class="result-card">
+              <h3>From Ad Hoc Cost Reviews to Scalable FinOps Services</h3>
+              <p>Resellers move from one-off cost analysis to delivering structured, repeatable Cloud FinOps services that strengthen customer relationships and create new recurring revenue streams.</p>
+            </article>
           </div>
           <div class="metrics-strip">
             <article><strong>Trusted by cloud resellers</strong><span>managing millions in monthly cloud spend</span></article>
@@ -425,13 +469,13 @@
     </footer>
   </div>
 
-  <div class="modal" id="demo-modal" aria-hidden="true" role="dialog" aria-labelledby="demo-modal-title">
+  <div class="modal" id="demo-modal" aria-hidden="true" aria-modal="true" aria-describedby="demo-modal-copy" role="dialog" aria-labelledby="demo-modal-title">
     <div class="modal-backdrop" data-modal-close></div>
     <div class="modal-panel" role="document">
       <button class="modal-close" type="button" aria-label="Close demo form" data-modal-close>&times;</button>
       <p class="eyebrow">Book a Demo</p>
       <h2 id="demo-modal-title">Review Your Billing, Pricing, and Margins</h2>
-      <p class="modal-copy">Tell us a bit about your cloud resale business and we will follow up to schedule a demo.</p>
+      <p class="modal-copy" id="demo-modal-copy">Tell us a bit about your cloud resale business and we will follow up to schedule a demo.</p>
       <form class="demo-form" id="demo-form">
         <div class="form-grid">
           <label>First name<input type="text" name="firstName" required></label>
@@ -442,12 +486,12 @@
           <label>Title<input type="text" name="title"></label>
         </div>
         <label>Message<textarea name="message" rows="5"></textarea></label>
-        <button class="button button-submit" type="submit">Submit</button>
+        <button class="button button-submit" type="submit" disabled>Submit</button>
         <p class="form-success" hidden>Thanks. Your request has been captured.</p>
       </form>
     </div>
   </div>
 
-  <script src="js/main.js"></script>
+  <script src="js/main.js" defer></script>
 </body>
 </html>

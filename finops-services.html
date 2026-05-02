@@ -4,7 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FinOps Services | moneta</title>
-  <meta name="description" content="Cloud FinOps services for AWS and Azure resellers powered by Moneta.">
+  <meta name="description" content="See how moneta helps AWS and Azure resellers deliver Cloud FinOps as a managed service with customer cost visibility, savings opportunities, and repeatable operations.">
+  <meta property="og:title" content="FinOps Services | moneta">
+  <meta property="og:description" content="See how moneta helps AWS and Azure resellers deliver Cloud FinOps as a managed service with customer cost visibility, savings opportunities, and repeatable operations.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/moneta-logo.png">
+  <meta property="og:url" content="finops-services.html">
+  <meta property="og:site_name" content="moneta">
   <link rel="icon" type="image/png" href="assets/favicon.png">
   <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -124,13 +130,13 @@
     </footer>
   </div>
 
-  <div class="modal" id="demo-modal" aria-hidden="true" role="dialog" aria-labelledby="demo-modal-title">
+  <div class="modal" id="demo-modal" aria-hidden="true" aria-modal="true" aria-describedby="demo-modal-copy" role="dialog" aria-labelledby="demo-modal-title">
     <div class="modal-backdrop" data-modal-close></div>
     <div class="modal-panel" role="document">
       <button class="modal-close" type="button" aria-label="Close demo form" data-modal-close>&times;</button>
       <p class="eyebrow">Book a Demo</p>
       <h2 id="demo-modal-title">Review Your Billing, Pricing, and Margins</h2>
-      <p class="modal-copy">Tell us a bit about your cloud resale business and we will follow up to schedule a demo.</p>
+      <p class="modal-copy" id="demo-modal-copy">Tell us a bit about your cloud resale business and we will follow up to schedule a demo.</p>
       <form class="demo-form" id="demo-form">
         <div class="form-grid">
           <label>First name<input type="text" name="firstName" required></label>
@@ -141,12 +147,12 @@
           <label>Title<input type="text" name="title"></label>
         </div>
         <label>Message<textarea name="message" rows="5"></textarea></label>
-        <button class="button button-submit" type="submit">Submit</button>
+        <button class="button button-submit" type="submit" disabled>Submit</button>
         <p class="form-success" hidden>Thanks. Your request has been captured.</p>
       </form>
     </div>
   </div>
 
-  <script src="js/main.js"></script>
+  <script src="js/main.js" defer></script>
 </body>
 </html>

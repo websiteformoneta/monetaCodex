@@ -374,7 +374,7 @@ The Hero CTA button must use the same format and styling logic shown in monetaHe
 The Hero CTA button label is:
 
 Plaintext
-Review Your Billing, Pricing, and Margins
+See your margin gaps
 Clicking this Hero CTA must open the same Book a Demo modal form used by the navigation CTA.
 
 There should be one shared modal implementation controlled by JavaScript, not duplicate modal code.
@@ -383,7 +383,7 @@ Both of these buttons must trigger the same modal:
 
 Navigation CTA: Book a Demo
 
-Hero CTA: Review Your Billing, Pricing, and Margins
+Hero CTA: See your margin gaps
 
 Homepage Content Source of Truth
 Use the approved homepage copy from content/homepage.md.
@@ -403,7 +403,7 @@ Built for AWS and Azure resellers managing multiple customers.
 Hero CTA:
 
 Plaintext
-Review Your Billing, Pricing, and Margins
+See your margin gaps
 Credibility line:
 
 Plaintext
