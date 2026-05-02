@@ -1257,7 +1257,11 @@ p {
 }
 
 .trust-logo-panel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 1.4rem 1.5rem;
+  line-height: 0;
 }
 
 .trust-panel-image,
@@ -1269,7 +1273,7 @@ p {
 
 .trust-logo-panel .trust-panel-image {
   width: 88%;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .trust-logo {
