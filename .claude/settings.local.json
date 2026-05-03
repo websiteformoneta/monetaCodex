@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash('C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Microsoft/VisualStudio/NodeJs/node.exe' -e ' *)",
+      "PowerShell(cd \"C:\\\\Users\\\\Karso\\\\OneDrive\\\\Desktop\\\\monetaClaude\"; $env:PATH = \"C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\MSBuild\\\\Microsoft\\\\VisualStudio\\\\NodeJs;\" + $env:PATH; & \"C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\MSBuild\\\\Microsoft\\\\VisualStudio\\\\NodeJs\\\\node.exe\" screenshot.mjs http://127.0.0.1:5500/ problem2 680 2>&1)"
+    ]
+  }
+}
